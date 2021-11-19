@@ -2,7 +2,7 @@
     "name": "pyrobyteweb/swagger-laravel",
     "autoload": {
         "psr-4": {
-            "Pyrobyteweb\\SwaggerLaravel\\": "src/"
+            "Pyrobyteweb\\Swagger\\": "src/"
         }
     },
     "authors": [
