@@ -1,0 +1,19 @@
+{
+    "name": "pyrobyteweb/swagger-laravel",
+    "autoload": {
+        "psr-4": {
+            "Pyrobyteweb\\SwaggerLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artyom",
+            "email": "artem.a@pyrobyte.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "zircote/swagger-php": "^3.2",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    }
+}
