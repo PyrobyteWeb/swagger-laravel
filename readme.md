@@ -5,8 +5,8 @@ PHP 7.4+
 
 1. app.php in section packages add:  
 ``\PyrobyteWeb\Swagger\SwaggerServiceProvider::class``  
-2. then publish package files ``php artisan vendor:publish --provider="PyrobyteWeb\Swagger\SwaggerServiceProvider"``
-
+2. Then publish package files ``php artisan vendor:publish --provider="PyrobyteWeb\Swagger\SwaggerServiceProvider"``
+3. Run ``php artisan swagger:generate`` for scan annotation 
 Config  
 ````
     'prefix' => 'swagger', // address to available ui
