@@ -26,8 +26,8 @@ class SwaggerServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        $this->loadRoutesFrom(__DIR__.'/../routes/routes.php');
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'swagger');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/routes.php');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'swagger');
         $this->commands(SwaggerGenerateCommand::class);
 
         $this->configureMiddleware($router);
@@ -55,7 +55,7 @@ class SwaggerServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/../resources/views' => base_path('resources/views'),
+            __DIR__ . '/../resources/views' => base_path('resources/views'),
         ]);
     }
 }
